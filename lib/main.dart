@@ -1,51 +1,16 @@
+import 'package:contact/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
-        home: Scaffold(
-            appBar: AppBar(),
-            body: Container(
-              height: 150,
-              padding: EdgeInsets.all(10),
-              child: Row(
-                children: [
-                  Image.asset('dog.png', width: 150,),
-                  Container(
-                    width: 300,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text('개팝니다'),
-                        Text('용현동'),
-                        Text('김덕삼'),
-                        Text('응삼이'),
-                        Text('복길이'),
-                        Text('삼룡이'),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.end,
-                          children: [
-                            Icon(Icons.favorite),
-                            Text('4')
-                          ],
-                        )
-                      ],
-                    ),
-                  )
-                ],
-              ),
-            )
-
-
-        )
+      title: 'IIMS',
+      debugShowCheckedModeBanner: false,
+      home: LoginScreen(),
     );
   }
 }
-
