@@ -34,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
               border: InputBorder.none,
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
-                Icons.email,
+                Icons.account_circle,
                 color: Colors.white,
               ),
               hintText: 'ID를 입력하세요.',
