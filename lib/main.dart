@@ -26,6 +26,9 @@ class MyApp extends StatelessWidget {
                         Text('개팝니다'),
                         Text('용현동'),
                         Text('김덕삼'),
+                        Text('응삼이'),
+                        Text('복길이'),
+                        Text('삼룡이'),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
